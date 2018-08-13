@@ -1,5 +1,7 @@
 body{
     margin: auto;
+    background: #000;
+    font-family: 'Calligraffitti', cursive;
     
 }
 
@@ -10,9 +12,6 @@ body{
     margin-bottom: -0.5%;
 }
 
-.container2{
-    background: #000;
-}
 
 .content{
     width: 1428px;
@@ -184,7 +183,7 @@ body{
 }
 
 .skill-font{
-    margin: 8% 9%;
+        margin: 8% 9%;
     width: 550px;
     font-family: 'Calligraffitti', cursive;
     font-size: 23px;
