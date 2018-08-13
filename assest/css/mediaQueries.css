@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1366px) {
+    .icon-bar, #into{
+        height: 872px;
+    }
+    .welcome{
+        margin: -50% 44%;
+        height: 872px;
+    }
+
+    #abouts{
+        height: 1200px;
+        margin-top: -0.78%;
+    }
+    #about{
+        margin: 0%;
+    }
+    .quote {
+        margin-left: 10%;
+        margin-top: -59%;
+    } 
+
+    #myphoto2{
+        margin: -62% 55%;
+    }
+
+    #skills{
+        margin-top: -1.01%;
+        height: 872px
+    }
+
+    #myCanvas{
+        margin: -58% 57%;
+    }
+    #code{
+        margin-top: -1%;
+    }
+  
+}
+

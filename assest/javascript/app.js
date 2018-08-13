@@ -8,7 +8,7 @@ function getRandomRgb() {
     return 'rgb(' + r + ', ' + g + ', ' + b + ')';
 }
 
-setInterval(function(){ $('.skill-font').css({color: getRandomRgb()}); }, 1);
+setInterval(function(){ $('.skill-fon').css({color: getRandomRgb()}); }, 1);
 
 
 

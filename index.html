@@ -6,6 +6,7 @@
     <title>Karen Salazar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assest/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assest/css/mediaQueries.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link rel="icon" type="image/png" href="icon.PNG">
@@ -16,15 +17,15 @@
     </script>
     <script src="assests/javascript/jquery-1.11.2.min.js"></script> 
     <script src="assests/javascript/vide.js"></script> 
-    
 </head>
 <body> 
     
     <div class="container2">
         <!--home-->
         <!--**************************************************************************************************************-->
-        <a name="home"></a>
+        
         <div class="icon-bar">
+            
             <a class="active tooltip" href="#home"><i class="fa fa-home"><span class="tooltiptext">Home</span></i></a>
             <a href="#about" class="tooltip"><i class="	fa fa-user"><span class="tooltiptext">About</span></i></a>  
             <a href="#skills" class="tooltip"><i class="	fa fa-rebel"><span class="tooltiptext">Skills</span></i></a>  
@@ -35,7 +36,8 @@
         </div><!--iconbar-->
         
         <div class="intro">
-            <img src="assest/image/spacex-71876-unsplash.jpg" style="opacity: 0.85;"  id="into">
+            <a name="home"></a>
+            <img src="assest/image/spacex-71876-unsplash.jpg"  id="into">
         </div><!--image-->
 
         <div class="welcome">
@@ -54,7 +56,7 @@
     <!--**************************************************************************************************************-->
     <!--about-->
 
-    <div class="container2">
+    <div class="container2" id="about">
 
         <div class="content" id="abouts">
 
@@ -69,7 +71,9 @@
                 My first porgrmming leanguage was Java, follow by c/c++ and now, I retun to school to get certified as a Full Stack Developer.      
             </div>
 
-            <div class="fonts" id="two">      
+            <div class="fonts" id="two">I have a BS on Electrical Engineering technology with a concentration on computer engineering.
+                    Enjoy working with different technologies, mostly with electronics and microcontrollers.<br><br>
+                    My first porgrmming leanguage was Java, follow by c/c++ and now, I retun to school to get certified as a Full Stack Developer.    
             </div>
             <img src="assest/image/g.jpg" id="myphoto2">
 
@@ -211,7 +215,7 @@
                         <div class="form">
                             <form action="mailto:ksalazardev@gmail.com" method="post" enctype="text/plain">
                                 <label for="name">Name</label>
-                                <input type="text" id="name" name="name" placeholder="John Smith">
+                                <input type="text" id="names" name="name" placeholder="John Smith">
                                
                                 <label for="email">Email</label>
                                 <input type="text" id="email" name="email" placeholder="example@.com">

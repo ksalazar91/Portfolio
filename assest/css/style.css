@@ -6,12 +6,11 @@ body{
 #into{
     width: 1428px;
     height: 731px;
-    margin-left: 6.35%;
+    margin-left: 5.97%;
     margin-bottom: -0.5%;
 }
 
 .container2{
-    display: flex;
     background: #000;
 }
 
@@ -31,7 +30,7 @@ body{
 .welcome{
     width: 850px;
     height: 500px;
-    margin: 12% 44%;
+    margin: -38% 44%;
     position: absolute;
     color: ivory;
     font-family: 'Ruslan Display', cursive;
@@ -52,7 +51,7 @@ body{
 .quote{
     font-family: 'Caveat', cursive;
     margin-left: 7%;
-    margin-top: 5%;
+    margin-top: -44%;
     color: gold;
     position: absolute;
 }
@@ -185,12 +184,17 @@ body{
 }
 
 .skill-font{
-    margin: 14% 13%;
+    margin: 8% 9%;
     width: 550px;
     font-family: 'Calligraffitti', cursive;
     font-size: 23px;
     
 }
+#myCanvas{
+    margin: -46% 51%;
+    position: absolute;
+}
+
 
 /*-----------------------------------------------------------------------*/
 /*                           portfolio                                   */
@@ -314,6 +318,7 @@ hr{
 
 
 
-#name{
+#names{
     margin: 1% 0%;
 }
+
