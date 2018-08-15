@@ -37,9 +37,7 @@
   
 }
 @media only screen and (max-width: 400px) {
-   /* .icon-bar, #into{
-        height: 872px;
-    }
+   /* 
     .welcome{
         margin: -50% 44%;
         height: 872px;
@@ -74,8 +72,29 @@
     }
   */
 
-    
+    .icon-bar a {
+        float: left; 
+        text-align: center; 
+        width: 14.28%; 
+        padding: 34px 0; 
+        transition: all 0.3s ease; 
+        color: white; 
+        font-size: larger; 
+    }
+
+    .tooltip .tooltiptext {
+        top: 71%;
+        left: 117%;
+        font-size: 15px;
+    }
+
+
+    .fa{
+        width: 16px;
+    }
+        
     .icon-bar {
+        overflow: auto;
         width: 100%;   
         height: auto;
         position: relative;
@@ -84,14 +103,16 @@
         margin-left: 0;
     }
 
-    .icon-bar a {
-        text-align: center;
-    }
 
     #into{
         margin-left: 0%;
         width: 100%;
-        height: auto;
+        height: 496px;
+    }
+
+    body{
+        margin: 0%;
+        width: 100%;
     }
 
 }
