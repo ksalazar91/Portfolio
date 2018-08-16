@@ -38,10 +38,7 @@
 }
 @media only screen and (max-width: 400px) {
    /* 
-    .welcome{
-        margin: -50% 44%;
-        height: 872px;
-    }
+   
 
     #abouts{
         height: 1200px;
@@ -50,10 +47,7 @@
     #about{
         margin: 0%;
     }
-    .quote {
-        margin-left: 10%;
-        margin-top: -59%;
-    } 
+   
 
     #myphoto2{
         margin: -62% 55%;
@@ -71,7 +65,16 @@
         margin-top: -1%;
     }
   */
+    .welcome{
+        margin: -72% -4%;
+        font-size: 20px;
+    }
 
+    .quote {
+        margin-left: 10%;
+        margin-top: -128%;
+        font-size: 20px;
+    } 
     .icon-bar a {
         float: left; 
         text-align: center; 
@@ -113,6 +116,10 @@
     body{
         margin: 0%;
         width: 100%;
+    }
+
+    #position{
+        margin-left:14%; 
     }
 
 }
