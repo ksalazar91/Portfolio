@@ -67,8 +67,8 @@
     .fonts{
         margin: 0% 8%;
         font-size: 19px;
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
     }
 
     #two{
@@ -86,7 +86,7 @@
 
     .skill-font {
         margin: 8% 9%;
-        width: 350px;
+        width: 300px;
     }
 
     #myCanvas{
