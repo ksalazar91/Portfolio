@@ -4,10 +4,23 @@
         height: auto;
     }
 
-    #into{
-        width: 100%;
-    
+    #about{
+        margin: 39.2% 0% 0% 0%;
     }
+
+    #myphoto2{
+        margin: -21% 0% 0% 39%;
+    }
+
+    #skills{
+        margin: 96.7% 0% 0% 0%;
+    }
+
+    #myCanvas{
+        margin: -85% 0% 0% 51%;
+    }
+
+  
 }
 
 
