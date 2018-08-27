@@ -1,15 +1,17 @@
 body{
     margin: auto;
-    background: #000;
-    font-family: 'Calligraffitti', cursive;
-    
+    background: #000;    
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    margin: 48% 0% 0% 0%;
 }
 
 #into{
-    width: 1428px;
-    height: 731px;
-    margin-left: 5.97%;
-    margin-bottom: -0.5%;
+    width: 100%;  
+    height: 750px;   
 }
 
 
@@ -21,15 +23,22 @@ body{
 
 }
 
+.intro{
+    position: absolute;
+    width: 100%;
+    margin: -48% 0% 0% 0%;
+    z-index: -1;
+}
 
 /*-----------------------------------------------------------------------*/
-/*                           welcome                                     */
+/*                           welcome   margin-left: 5.97%;
+    margin-bottom: -0.5%;                                  */
 /*-----------------------------------------------------------------------*/
 
 .welcome{
     width: 850px;
     height: 500px;
-    margin: -38% 44%;
+    margin: -38% 0% 0% 44%;
     position: absolute;
     color: ivory;
     font-family: 'Ruslan Display', cursive;
@@ -49,7 +58,7 @@ body{
 }
 .quote{
     font-family: 'Caveat', cursive;
-    margin-left: 7%;
+    margin-left: 8%;
     margin-top: -44%;
     color: gold;
     position: absolute;
@@ -59,10 +68,11 @@ body{
 /*-----------------------------------------------------------------------*/
 
 .icon-bar {
-    width: 90px; /* Set a specific width */
-    background-color: #555; /* Dark-grey background */
-    height: 731px;
+    width: 90px;
+    background-color: #555;
+    height: auto;
     position: fixed;
+    margin-top: -48%;
 }
 
 .icon-bar a {
@@ -92,7 +102,7 @@ body{
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px -7px;
+    margin: 5px 0% 0% -7px;
   }
   
   .fa:hover {
@@ -145,7 +155,12 @@ body{
 /*-----------------------------------------------------------------------*/
 /*                           About                                       */
 /*-----------------------------------------------------------------------*/
- 
+
+#about{
+    background: white;
+    margin: 49.2% 0% 0% 0%;
+    z-index: -1;
+}
 
 #abouts{
     background: white;
@@ -156,23 +171,23 @@ body{
 .title{
     font-family: 'Ruslan Display', cursive;
     font-size: 50px;
-    margin: 1% 40%;
+    margin: 1% 0% 0% 40%;
     text-decoration: underline;
    
 }
 
 
 #myphoto{
-    margin: 5% 20%;
+    margin: 5% 0% 0% 20%;
 }
 #myphoto2{
-    margin: -55% 47%;
+    margin: -27% 0% 0% 47%;
     position: absolute;
     height: 400px;
     width: 400px;
 }
 #two{
-    margin: 31% 20%;
+    margin: 2%  0% 0% 20%;
 }
 /*-----------------------------------------------------------------------*/
 /*                           skills                                      */
@@ -181,19 +196,22 @@ body{
 #skills{
     background: black;
     color: white;
+    margin: 121.7% 0% 0% 0%;
+    z-index: -1;
 }
 
 .skill-font{
-        margin: 8% 9%;
+        margin: 8% 0% 0% 9%;
     width: 550px;
     font-family: 'Calligraffitti', cursive;
     font-size: 23px;
     
 }
 #myCanvas{
-    margin: -46% 51%;
+    margin: -90%  0% 0% 51%;
     position: absolute;
 }
+
 
 
 /*-----------------------------------------------------------------------*/
@@ -202,7 +220,9 @@ body{
 
 #code{
     background: white;
-    height: 1000px;
+    height: 1247px;
+    margin: 170.8% 0% 0% 0%;
+    z-index: -1;
 }
 
 section{
@@ -245,17 +265,21 @@ h6{
     line-height: 30px;
     
 }   
-
+#portfolio{
+    margin-left: 20%;
+    width: 1215px;
+}
 /*-----------------------------------------------------------------------*/
 /*                           contact                                     */
 /*-----------------------------------------------------------------------*/
 
 #contact{
     color: #fff;
-    height: 900px;
+    margin: 252.8% 0% 0% 0%;
+    z-index: -1;
 }
 #title{
-    margin: 0% 37%;
+    margin: 0% 0% 0% 37%;
 }
 
 .fonts{
@@ -264,7 +288,7 @@ h6{
     height: 400px;
     width: 400px;
     color: black;
-    margin: -31% 51%;
+    margin: -27% 0% 0% 51%;
 }
 
 input[type=text]{
@@ -319,6 +343,5 @@ hr{
 
 
 #names{
-    margin: 1% 0%;
+    margin: 1% 0% 0% 0%;
 }
-
