@@ -3,7 +3,7 @@ body{
     background: #000;    
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
     .container{
         position: absolute;
         width: 100%;
