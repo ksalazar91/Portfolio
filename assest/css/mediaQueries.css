@@ -25,6 +25,7 @@
         width: 100%;   
         height: auto;
         position: fixed;
+        margin-top: -15%;
     }
 
     .welcome{
