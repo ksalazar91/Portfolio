@@ -21,11 +21,11 @@
     }
         
     .icon-bar {
-        overflow: auto;
-        width: 100%;   
-        height: auto;
-        position: fixed;
-        margin-top: -15%;
+    overflow: auto;
+    width: 29%;
+    height: auto;
+    position: fixed;
+    margin-top: -15%;
     }
 
     .welcome{
